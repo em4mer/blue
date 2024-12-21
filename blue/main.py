@@ -4,7 +4,6 @@ import pygame
 import os
 import platform
 
-# Clear the terminal screen
 def clear_terminal():
     if platform.system() == "Windows":
         os.system("cls")
